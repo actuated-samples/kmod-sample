@@ -1,4 +1,4 @@
-name: Master CI
+name: ci
 on:
   push:
     branches:
@@ -10,7 +10,7 @@ on:
 
 jobs:
   test-get-kernel-sources-action:
-    runs-on: acuated-arm64-4cpu-12gb
+    runs-on: actuated-arm64-4cpu-16gb
     steps:
       - uses: actions/checkout@v4
       
